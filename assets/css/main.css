@@ -1,0 +1,72 @@
+body{
+    height: 100vh;
+    background-color: #ee8d8e;
+    margin: 0;
+    font-family: 'Amatic SC', cursive;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #060709;
+    padding: 0 5rem;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color: #060709;
+    color: #fff;
+}
+
+
+.logo-nav{
+    width: 250px;
+}
+
+.logo-socialmedia{
+    width: 4rem;
+    padding: 0 10px;
+}
+
+.homepage-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.homepage-image{
+    width: 50%;
+}
+
+.homepage-container h1{
+    font-size: 40px;
+    margin-top: 0px !important;
+}
+
+.footer-font{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .homepage-container{
+        height: 95vh;
+    }
+    
+    .homepage-image{
+        width: 80%;
+    }    
+
+    .logo-socialmedia{
+        width: 3rem;
+        padding: 0 5px;
+    }
+
+
+}
